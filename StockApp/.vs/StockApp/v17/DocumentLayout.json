@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\tpCesar\\tp2-stockapp\\StockApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E41229-E54A-4DC0-A93F-3561D544044C}|StockApp.Domain.Test\\StockApp.Domain.Test.csproj|c:\\tpcesar\\tp2-stockapp\\stockapp\\stockapp.domain.test\\productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E41229-E54A-4DC0-A93F-3561D544044C}|StockApp.Domain.Test\\StockApp.Domain.Test.csproj|solutionrelative:stockapp.domain.test\\productunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADE10E9-F98B-49C2-8D00-F97F479B7503}|StockApp.Domain\\StockApp.Domain.csproj|c:\\tpcesar\\tp2-stockapp\\stockapp\\stockapp.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADE10E9-F98B-49C2-8D00-F97F479B7503}|StockApp.Domain\\StockApp.Domain.csproj|solutionrelative:stockapp.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C310CF6-6C80-44CD-A4D6-C1DA29C0923D}|StockApp.Infra.Data\\StockApp.Infra.Data.csproj|c:\\tpcesar\\tp2-stockapp\\stockapp\\stockapp.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C310CF6-6C80-44CD-A4D6-C1DA29C0923D}|StockApp.Infra.Data\\StockApp.Infra.Data.csproj|solutionrelative:stockapp.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E41229-E54A-4DC0-A93F-3561D544044C}|StockApp.Domain.Test\\StockApp.Domain.Test.csproj|c:\\tpcesar\\tp2-stockapp\\stockapp\\stockapp.domain.test\\categoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E41229-E54A-4DC0-A93F-3561D544044C}|StockApp.Domain.Test\\StockApp.Domain.Test.csproj|solutionrelative:stockapp.domain.test\\categoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "StockApp.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "StockApp.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:51:40.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductUnitTest.cs",
+              "DocumentMoniker": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\ProductUnitTest.cs",
+              "RelativeDocumentMoniker": "StockApp.Domain.Test\\ProductUnitTest.cs",
+              "ToolTip": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\ProductUnitTest.cs",
+              "RelativeToolTip": "StockApp.Domain.Test\\ProductUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:50:57.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "StockApp.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "StockApp.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:50:04.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryUnitTest.cs",
+              "DocumentMoniker": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\CategoryUnitTest.cs",
+              "RelativeDocumentMoniker": "StockApp.Domain.Test\\CategoryUnitTest.cs",
+              "ToolTip": "C:\\tpCesar\\tp2-stockapp\\StockApp\\StockApp.Domain.Test\\CategoryUnitTest.cs",
+              "RelativeToolTip": "StockApp.Domain.Test\\CategoryUnitTest.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:35:04.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
