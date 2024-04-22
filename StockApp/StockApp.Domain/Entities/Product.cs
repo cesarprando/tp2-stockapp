@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace StockApp.Domain.Entities
 {
@@ -19,13 +20,22 @@ namespace StockApp.Domain.Entities
         public int CategoryId { get; set; }
         #endregion
 
-        public Product()
+        #region Construtores
+        public Product(string name, string description, decimal price, int stock, string image)
         {
-
+            ValidateDomain(name, description, price, stock, image);
         }
+        public Product(int id, string name, string description, decimal price, int stock, string image)
+        {
+            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            Id = id;
+            ValidateDomain(name, description, price, stock, image);
+        }
+        #endregion
 
         public Category Category { get; set; }
 
+        #region Testes
         private void ValidateDomain(string name, string description, decimal price, int stock, string image)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
@@ -35,7 +45,7 @@ namespace StockApp.Domain.Entities
                 "Invalid name, too short, minimum 3 characters.");
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(description),
-                "Invalid description, name is required.");
+                "Invalid description, description is required.");
 
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short, minimum 5 characters.");
@@ -47,5 +57,6 @@ namespace StockApp.Domain.Entities
             DomainExceptionValidation.When(image.Length > 250, "Invalid image name, too long, maximum 250 characters.");
 
         }
+        #endregion
     }
 }
