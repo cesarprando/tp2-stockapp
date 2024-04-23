@@ -19,10 +19,18 @@ namespace StockApp.Domain.Entities
         public int CategoryId { get; set; }
         #endregion
 
-        public Product()
+        #region Construtores
+        public Product(string name, string description, decimal price, int stock, string image)
         {
-
+            ValidateDomain(name, description, price, stock, image);
         }
+        public Product(int id, string name, string description, decimal price, int stock, string image)
+        {
+            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            Id = id;
+            ValidateDomain(name, description, price, stock, image);
+        }
+        #endregion
 
         public Category Category { get; set; }
 
@@ -35,7 +43,7 @@ namespace StockApp.Domain.Entities
                 "Invalid name, too short, minimum 3 characters.");
 
             DomainExceptionValidation.When(string.IsNullOrEmpty(description),
-                "Invalid description, name is required.");
+                "Invalid description, description is required.");
 
             DomainExceptionValidation.When(description.Length < 5,
                 "Invalid description, too short, minimum 5 characters.");
